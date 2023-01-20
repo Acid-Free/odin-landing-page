@@ -1,12 +1,39 @@
 body {
+  margin: 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 800;
+  color: #F9FAF8;
 }
 
 .welcome {
   color: #F9FAF8;
+  display: flex;
+  gap: 30px;
+}
+
+.welcome div {
+  flex: 1;
 }
 
 .main-text {
+  margin: 0px;
   font-size: 48px;
   font-weight: 800;
 }
@@ -15,10 +42,6 @@ body {
   font-size: 18px;
 }
 
-.logo {
-  font-size: 24px;
-  color: #F9FAF8;
-}
 
 a {
   text-decoration: none;
@@ -27,13 +50,28 @@ a {
 
 .c1 {
   background-color: #1F2937;
+  padding: 10px 180px 80px 180px;
 }
 
 .image-holder {
   background: #6d747d;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.c2 {
+  text-align: center;
+  padding: 30px 100px;
+}
+
+.c2 .tiles {
+  display: flex;
 }
 
 .information-header-text {
+  margin: 0px;
+  margin-bottom: 30px;
   font-size: 36px;
   font-weight: 800;
   color: #1F2937;
@@ -45,39 +83,51 @@ a {
 }
 
 .c3 {
+  padding: 10% 15%;
   background-color: #E5E7EB;
 }
 
 .quote {
+  text-align: center;
   font-size: 36px;
   font-style: italic;
   color: #1F2937;
 }
 
 .quote-source {
+  text-align: end;
   font-size: 24px;
   font-weight: 800;
   color: #1F2937;
 }
 
+.c4 {
+  padding: 80px 200px;
+}
+
 .call-to-action {
+  padding: 60px 120px;
   background-color: #3882F6;
   color: #F9FAF8;
   border-radius: 8px;
+  display: flex;
+  gap: 80px;
 }
 
 .call-to-action .title {
+  margin: 0px;
   font-size: 24px;
   font-weight: 800
 }
 
 .call-to-action .description {
-  font-size: 16px;
+  margin: 0px;
+  font-size: 18px;
 }
 
-.footer {
-  background-color: #1F2937;
-  color: #F9FAF8;
+.call-to-action .button-div {
+  display: flex;
+  align-items: center;
 }
 
 .button {
@@ -92,4 +142,11 @@ a {
 
 .button-outlined {
   border: 2px solid #F9FAF8;
+}
+
+.footer {
+  padding: 40px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
 }
