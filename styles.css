@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.welcome {
+  color: #F9FAF8;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.secondary-text {
+  font-size: 18px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+a {
+  text-decoration: none;
+  color: #F9FAF8;
+}
+
+.c1 {
+  background-color: #1F2937;
+}
+
+.image-holder {
+  background: #6d747d;
+}
+
+.information-header-text {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+.tile-description {
+  font-size: 16px;
+  color: #4B5563;
+}
+
+.c3 {
+  background-color: #E5E7EB;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-source {
+  font-size: 24px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+.call-to-action {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 8px;
+}
+
+.call-to-action .title {
+  font-size: 24px;
+  font-weight: 800
+}
+
+.call-to-action .description {
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.button {
+  padding: 8px 24px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 800;
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+.button-outlined {
+  border: 2px solid #F9FAF8;
+}
